@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SignUp</title>
+  <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+  <script src="https://kit.fontawesome.com/92d73c3f26.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="d-flex justify-content-center align-items-center bg-dark flex-column">
+  <div class="container-fluid d-flex justify-content-center align-items-center rel">
+    <div class="form p-5 rounded">
+      <div class="already">
+        <p class="text text-center abs">
+          You Already signed up<br />please login<br />Redirecting to
+          login<span class="spinner-grow spinner-grow-sm text-dark ms-0" role="status"
+          style="width: 3px; height: 3px"></span>
+          <span class="spinner-grow spinner-grow-sm text-dark" role="status"
+          style="width: 3px; height: 3px"></span>
+          <span class="spinner-grow spinner-grow-sm text-dark " role="status"
+          style="width: 3px; height: 3px"></span>
+        </p>
+      </div>
+      <h4 class="text-center w-100">
+        Hi!! <span class="fw-bold unknown">new kid</span>
+      </h4>
+      <form class="myform">
+        <h5 class="text text-center signuptext">signUp &#128526;</h5>
+        <div class="my-4">
+          <input type="text" class="form-control" id="uname" aria-describedby="emailHelp" placeholder="User Name"
+            autocomplete="off" title="Enter your Name" required />
+        </div>
+        <div class="my-4">
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email"
+            autocomplete="off" title="Enter your Email" required />
+        </div>
+
+        <div class="my-4 pass position-relative">
+          <input type="password" class="form-control" id="password" placeholder="Create Password" maxlength="10"
+            autocomplete="off" title="create strong password" required />
+          <img src="images/eyeclose.png" alt="" class="eye" id="eye" />
+        </div>
+
+        <div class="button">
+          <button type="submit" class="btn btn-primary fw-bold">
+            SignUp
+          </button>
+        </div>
+        <p class="mt-3 text-dark text-center">
+          Already have account? <a href="index2.html">login</a>
+        </p>
+      </form>
+      <div class="clear d-flex justify-content-center align-items-center">
+        <button id="clear" class="btn border-danger text-danger">
+          Clear cache
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
